@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallet - Enviar Dinero</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Wallet</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="deposit.html">Depositar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sendmoney.html">Enviar Dinero</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="transactions.html">Últimos Movimientos</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container" style="border: 1px solid #000000; padding: 20px; background-color: #ffffff;">
+    <h2>Enviar Dinero</h2>
+    <form>
+      <div class="form-group">
+        <label for="searchContact">Buscar en la agenda de transferencias:</label>
+        <input type="text" class="form-control" id="searchContact" placeholder="Search contact">
+      </div>
+      <button type="submit" class="btn btn-primary">Agregar nuevo contacto</button>
+<h3>Contactos</h3>
+  <ul id="contactList" class="list-group">
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">luis gonzalez bonilla</span>
+        <span class="contact-details">CBU: 19966579, Alias: lucho, Banco: Falabella</span>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">Desiree sepulveda</span>
+        <span class="contact-details">CBU: 98467392, Alias: la Desi, Banco: Itaú</span>
+      </div>
+    </li>
+
+    <li class="list-group-item">
+      <div class="contact-info">
+        <span class="contact-name">Elias Sepulveda</span>
+        <span class="contact-details">CBU: 54769850, Alias: Don Elias, Banco: BCI</span>
+      </div>
+    </li>
+
+
+      <button type="submit" class="btn btn-primary">Enviar dinero</button>
+    </form>
+    <a href="menu.html" class="btn btn-secondary">Volver al Menú Principal</a>
+  </div><!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span>© 2024 Wallet. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
